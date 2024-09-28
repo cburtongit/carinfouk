@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Checker</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Vehicle Check</h1>
+    <!-- <label for="registration-input">Enter Registration:</label> -->
+    <input type="text" id="reg-input" placeholder="AB34 EFG...">
+    
+    <button class="details-btn" id="getDetailsBtn">Get Details</button>
+    <button class="check-tax-btn" id="checkTaxBtn">Check Tax</button>
+    <button class="mot-history-btn" id="motHistoryBtn">MOT History</button>
+
+    <div id="details-panel" class="result-panel hidden">
+      <!-- Content injected on button press-->
+    </div>
+
+    <div id="details-tax-panel" class="result-panel hidden">
+      <!-- Content injected on button press-->
+    </div>
+
+    <div id="details-mot-panel" class="result-panel hidden">
+      <!-- Content injected on button press-->
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

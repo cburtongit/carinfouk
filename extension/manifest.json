@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "MOT & Tax Checker for Facebook Marketplace (UK)",
+    "version": "1.0",
+    "description": "A simple Chrome extension that checks the tax status and MOT history for vehicles on Facebook marketplace.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "permissions": []
+  }
